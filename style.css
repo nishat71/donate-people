@@ -58,6 +58,7 @@ h1 {
 .donate-title {
     text-align: center;
     margin-bottom: 40px;
+    margin-top: 80px;
 }
 
 .donate-title h1 {
@@ -120,7 +121,28 @@ h1 {
 
 }
 
+.donate-plan-item {
+    display: flex;
+    margin: 0 100px;
+}
 
+.single-plan {
+    width: 30%;
+    margin: 3%;
+    padding: 20px;
+}
+
+#food {
+    background-color: rgb(201, 250, 201);
+}
+
+#shelter {
+    background-color: rgb(247, 221, 225);
+}
+
+#education {
+    background-color: rgb(252, 252, 223);
+}
 
 footer {
     background-color: black;
