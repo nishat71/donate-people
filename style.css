@@ -144,6 +144,65 @@ h1 {
     background-color: rgb(252, 252, 223);
 }
 
+.updates {}
+
+.update-title {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.update-title h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.update-title p {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    color: grey;
+    font-weight: 400;
+
+}
+
+.input-form {
+    text-align: center;
+    background-color: #fcf3d9;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    min-height: 30vh;
+    margin-left: 350px;
+    margin-right: 350px;
+
+}
+
+.email-input {
+    background-color: #e0dede;
+    border-radius: 3px 0px 0px 5px;
+    color: white;
+    border: none;
+    /* outline: none; */
+    font-size: 18px;
+    padding-left: 40px;
+    margin-top: 80px;
+    height: 50px;
+    width: 300px;
+}
+
+.btn {
+    background-color: #fa6363;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    margin-left: -5px;
+}
+
 footer {
     background-color: black;
     padding: 30px 40px;
