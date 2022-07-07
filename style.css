@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
 }
 
 h1 {
@@ -49,6 +49,95 @@ h1 {
 
 .link-button:hover {
     background-color: transparent;
-    color: white;
+    color: black;
     border: 1px solid red;
+}
+
+.Donate-area {}
+
+.donate-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.donate-title h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donate-title p {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    color: grey;
+    font-weight: 400;
+
+}
+
+.item-list {
+    display: flex;
+    justify-content: center;
+
+}
+
+.items {
+    padding: 30px;
+    font-weight: 700;
+    color: rgb(53, 51, 51);
+    font-size: 22px;
+    /* background-color: rgb(221, 214, 214); */
+    background-color: rgb(245 244 244);
+    margin: 10px;
+}
+
+#items2 {
+    background-color: rgb(245 223 223);
+    color: red;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.input-button-field {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.input-field {
+    /* border-bottom: 1px solid grey; */
+    width: 100%;
+}
+
+.other-amount {
+    color: grey;
+    border: none;
+    border-bottom: 1px solid grey;
+    /* width: 50%; */
+    font-size: 20px;
+    outline: none;
+    /* display: block; */
+
+}
+
+
+
+footer {
+    background-color: black;
+    padding: 30px 40px;
+    text-align: center;
+
+}
+
+footer h2 {
+    font-style: italic;
+    color: red;
+    font-weight: 700;
+
+}
+
+footer p {
+    color: white;
+    font-size: 15px;
+
 }
